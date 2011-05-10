@@ -126,15 +126,15 @@
 
 	<!-- The icon the system uses for the application. For at least one resolution,
 	specify the path to a PNG file included in the AIR package. Optional. -->
-	<!-- <icon>
-		<image16x16></image16x16>
-		<image32x32></image32x32>
-		<image36x36></image36x36>
-		<image48x48></image48x48>
-		<image72x72></image72x72>
-		<image114x114></image114x114>
-		<image128x128></image128x128>
-	</icon> -->
+	<icon>
+		<image16x16>asset/icon/flexpadmobile16.png</image16x16>
+		<image32x32>asset/icon/flexpadmobile32.png</image32x32>
+		<image36x36>asset/icon/flexpadmobile36.png</image36x36>
+		<image48x48>asset/icon/flexpadmobile48.png</image48x48>
+		<image72x72>asset/icon/flexpadmobile72.png</image72x72>
+		<image114x114>asset/icon/flexpadmobile114.png</image114x114>
+		<image128x128>asset/icon/flexpadmobile128.png</image128x128>
+	</icon>
 
 	<!-- Whether the application handles the update when a user double-clicks an update version
 	of the AIR file (true), or the default AIR application installer handles the update (false).
@@ -194,7 +194,8 @@
 	<!-- </iPhone> -->
 
 	<!-- Specify Android specific tags that get passed to AndroidManifest.xml file. -->
-	<!--<android> 
+	<!--
+	<android> 
 		<manifestAdditions>
 		<![CDATA[
 			<manifest android:installLocation="auto">
@@ -215,7 +216,8 @@
 			</manifest>
 		]]>
 		</manifestAdditions> 
-	</android> -->
+	</android> 
+	-->
 	<!-- End of the schema for adding the android specific tags in AndroidManifest.xml file -->
 
 <android>
@@ -224,7 +226,7 @@
 			    <!--See the Adobe AIR documentation for more information about setting Google Android permissions-->
 			    <!--Removing the permission android.permission.INTERNET will have the side effect
 		of preventing you from debugging your application on your device-->
-			    <!--<uses-permission android:name="android.permission.INTERNET"/>-->
+			    <uses-permission android:name="android.permission.INTERNET"/>
 			    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>-->
 			    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE"/>-->
 			    <!--<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>-->
