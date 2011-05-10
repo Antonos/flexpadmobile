@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view:FlexPadMobileView xmlns:fx="http://ns.adobe.com/mxml/2009"
+						xmlns:s="library://ns.adobe.com/flex/spark"
+						xmlns:flexpadmobile="http://code.google.com/p/flexpadmobile/"
+						xmlns:icon="com.flexpadmobile.icon.*"
+						xmlns:view="com.flexpadmobile.view.*"
+						title="Button">
+	
+	<view:layout>
+		<s:HorizontalLayout gap="10" paddingLeft="10" paddingRight="10" paddingTop="10" paddingBottom="10"/>
+	</view:layout>
+	
+	<s:VGroup gap="10">
+		<flexpadmobile:ButtonGrey label="Edit"/>
+		<flexpadmobile:ButtonBlack label="Edit"/>
+		<flexpadmobile:ButtonBlue label="Edit"/>
+		<flexpadmobile:ButtonGreyBlue label="Edit"/>
+		<flexpadmobile:ButtonRed label="Edit"/>
+	</s:VGroup>
+	
+	<s:VGroup gap="10">
+		<flexpadmobile:BackButtonGrey label="Back"/>
+		<flexpadmobile:BackButtonBlack label="Back"/>
+	</s:VGroup>
+	
+	<s:VGroup gap="10">
+		<flexpadmobile:Switch selected="true"/>
+		<flexpadmobile:CheckBox label="Checkbox"/>
+	</s:VGroup>
+	
+	<s:VGroup gap="10">
+		<flexpadmobile:RadioButton label="Radio button 1" groupName="test" selected="true"/>
+		<flexpadmobile:RadioButton label="Radio button 2" groupName="test"/>
+	</s:VGroup>
+	<s:Spacer width="20"/>
+	<s:VGroup>
+		<icon:CheckEmptyIcon buttonMode="true"/>
+		<icon:CheckFilledIcon buttonMode="true"/>
+		<flexpadmobile:ArrowButton/>
+		<flexpadmobile:AddBlueButton/>
+		<flexpadmobile:AddGreenButton/>
+		<flexpadmobile:RemoveButton/>
+	</s:VGroup>
+</view:FlexPadMobileView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view:FlexPadMobileView xmlns:fx="http://ns.adobe.com/mxml/2009"
+						xmlns:s="library://ns.adobe.com/flex/spark"
+						xmlns:flexpadmobile="http://code.google.com/p/flexpadmobile/"
+						xmlns:view="com.flexpadmobile.view.*"
+						title="List">
+	
+	<flexpadmobile:List width="300" height="100%" backgroundAlpha="1" backgroundColor="0xdfe2e7">
+		<s:ArrayCollection>
+			<fx:Object label="Label One" icon="@Embed(source='/asset/icon/sampleIcon.png')"></fx:Object>
+			<fx:Object label="Label Two" hint="Two"
+					   icon="@Embed(source='/asset/icon/sampleIcon.png')"></fx:Object>
+			<fx:Object label="Label Three" hint="Three"
+					   icon="@Embed(source='/asset/icon/sampleIcon.png')"></fx:Object>
+			<fx:Object label="Label Four" icon="@Embed(source='/asset/icon/sampleIcon.png')"></fx:Object>
+			<fx:Object label="Label Five" icon="@Embed(source='/asset/icon/sampleIcon.png')"></fx:Object>
+			<fx:Object label="Label Six" icon="@Embed(source='/asset/icon/sampleIcon.png')"></fx:Object>
+			<fx:Object label="Label Seven" icon="@Embed(source='/asset/icon/sampleIcon.png')"></fx:Object>
+			<fx:Object label="Label Eight" icon="@Embed(source='/asset/icon/sampleIcon.png')"></fx:Object>
+			<fx:Object label="Label Nine" icon="@Embed(source='/asset/icon/sampleIcon.png')"></fx:Object>
+			<fx:Object label="Label Ten" icon="@Embed(source='/asset/icon/sampleIcon.png')"></fx:Object>
+		</s:ArrayCollection>
+	</flexpadmobile:List>
+</view:FlexPadMobileView>
