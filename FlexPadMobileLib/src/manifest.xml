@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<componentPackage>
+	<!-- Button -->
+	<component id="ButtonGrey" class="com.flexpadmobile.ButtonGrey" />
+	<component id="ButtonBlack" class="com.flexpadmobile.ButtonBlack" />
+	<component id="ButtonBlue" class="com.flexpadmobile.ButtonBlue" />
+	<component id="ButtonGreyBlue" class="com.flexpadmobile.ButtonGreyBlue" />
+	<component id="ButtonRed" class="com.flexpadmobile.ButtonRed" />
+	<component id="BackButtonGrey" class="com.flexpadmobile.BackButtonGrey" />
+	<component id="BackButtonBlack" class="com.flexpadmobile.BackButtonBlack" />
+	<component id="Switch" class="com.flexpadmobile.Switch" />
+	<component id="CheckBox" class="com.flexpadmobile.CheckBox" />
+	<component id="RadioButton" class="com.flexpadmobile.RadioButton" />
+	<component id="ArrowButton" class="com.flexpadmobile.ArrowButton" />
+	<component id="AddBlueButton" class="com.flexpadmobile.AddBlueButton" />
+	<component id="AddGreenButton" class="com.flexpadmobile.AddGreenButton" />
+	<component id="RemoveButton" class="com.flexpadmobile.RemoveButton" />
+	<!-- Text -->
+	<component id="HintTextInput" class="com.flexpadmobile.HintTextInput" />
+	<component id="SearchTextInput" class="com.flexpadmobile.SearchTextInput" />
+	<component id="ButtonLabel" class="com.flexpadmobile.ButtonLabel" />
+	<!-- Bar -->
+	<component id="BarGrey" class="com.flexpadmobile.BarGrey" />
+	<component id="BarBlack" class="com.flexpadmobile.BarBlack" />
+	<component id="BarBlackSemiTrans" class="com.flexpadmobile.BarBlackSemiTrans" />
+	<component id="TabBarBlack" class="com.flexpadmobile.TabBarBlack" />
+	<component id="ButtonBarGrey" class="com.flexpadmobile.ButtonBarGrey" />
+	<component id="ButtonBarBlack" class="com.flexpadmobile.ButtonBarBlack" />
+	<component id="LargeButtonBarGrey" class="com.flexpadmobile.LargeButtonBarGrey" />
+	<component id="BarBlackLabel" class="com.flexpadmobile.BarBlackLabel" />
+	<component id="BarGreyLabel" class="com.flexpadmobile.BarGreyLabel" />
+	<!-- List -->
+	<component id="List" class="com.flexpadmobile.List" />
+	<component id="ListItemRendererHintLabel" class="com.flexpadmobile.ListItemRendererHintLabel" />
+	<!-- Table -->
+	<component id="Table" class="com.flexpadmobile.Table" />
+	<component id="TableRow" class="com.flexpadmobile.TableRow" />
+	<!-- Popover -->
+	<!-- Other -->
+	<component id="HSlider" class="com.flexpadmobile.HSlider" />
+</componentPackage>

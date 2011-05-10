@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:TabbedViewNavigatorApplication xmlns:fx="http://ns.adobe.com/mxml/2009"
+								  xmlns:s="library://ns.adobe.com/flex/spark"
+								  backgroundColor="#424242">
+	
+	<s:ViewNavigator id="btnView" width="100%" height="100%" label="Button" firstView="com.flexpadmobile.view.ButtonView"/>
+	<s:ViewNavigator width="100%" height="100%" label="Text" firstView="com.flexpadmobile.view.TextView"/>
+	<s:ViewNavigator width="100%" height="100%" label="Bar" firstView="com.flexpadmobile.view.BarView"/>
+	<s:ViewNavigator width="100%" height="100%" label="List" firstView="com.flexpadmobile.view.ListView"/>
+	<s:ViewNavigator width="100%" height="100%" label="Panel" firstView="com.flexpadmobile.view.PanelView"/>
+	<s:ViewNavigator width="100%" height="100%" label="Table" firstView="com.flexpadmobile.view.TableView"/>
+	<s:ViewNavigator width="100%" height="100%" label="Popover" firstView="com.flexpadmobile.view.PopoverView"/>
+	<s:ViewNavigator width="100%" height="100%" label="Splitview" firstView="com.flexpadmobile.view.SplitviewView"/>
+	
+</s:TabbedViewNavigatorApplication>
