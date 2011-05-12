@@ -46,7 +46,8 @@
 
             protected function sparkskin1_creationCompleteHandler(event:FlexEvent):void
             {
-                fillPath.data = "M" + (width - 4) + " 0Q" + width + " 0 " + width + " 4L" + width + " 24Q" + width + " 28 " + (width - 4) + " 28L11.5 28 0 14 11.5 0 " + (width - 4) + " 0"
+				var btnWidth:Number = width==0?measuredWidth:width;
+                fillPath.data = "M" + (btnWidth - 4) + " 0Q" + btnWidth + " 0 " + btnWidth + " 4L" + btnWidth + " 24Q" + btnWidth + " 28 " + (btnWidth - 4) + " 28L11.5 28 0 14 11.5 0 " + (btnWidth - 4) + " 0"
                 borderPath.data = fillPath.data;
             }
         ]]>
