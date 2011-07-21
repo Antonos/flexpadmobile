@@ -23,7 +23,7 @@
 <s:SparkSkin 
     minHeight="30"
     minWidth="30"
-    creationComplete="sparkskin1_creationCompleteHandler(event)"
+    creationComplete="creationCompleteHandler(event)"
     xmlns:fx="http://ns.adobe.com/mxml/2009"
     xmlns:s="library://ns.adobe.com/flex/spark"
     xmlns:fb="http://ns.adobe.com/flashbuilder/2009"
@@ -45,10 +45,11 @@
             import mx.events.FlexEvent;
 
 
-            protected function sparkskin1_creationCompleteHandler(event:FlexEvent):void
+            protected function creationCompleteHandler(event:FlexEvent):void
             {
-				var btnWidth:Number = width==0?measuredWidth:width;
-                fillPath.data = "M" + (btnWidth - 4) + " 0Q" + btnWidth + " 0 " + btnWidth + " 4L" + btnWidth + " 24Q" + btnWidth + " 28 " + (btnWidth - 4) + " 28L11.5 28 0 14 11.5 0 " + (btnWidth - 4) + " 0"
+				var btnWidth:Number = labelDisplay.width+20;
+
+				fillPath.data = "M" + (btnWidth - 4) + " 0Q" + btnWidth + " 0 " + btnWidth + " 4L" + btnWidth + " 24Q" + btnWidth + " 28 " + (btnWidth - 4) + " 28L11.5 28 0 14 11.5 0 " + (btnWidth - 4) + " 0"
                 borderPath.data = fillPath.data;
             }
         ]]>

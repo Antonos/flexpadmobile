@@ -2,10 +2,11 @@
 <s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
 		xmlns:s="library://ns.adobe.com/flex/spark"
 		xmlns:flexpadmobile="http://code.google.com/p/flexpadmobile/"
-		title="HomeView">
+		title="Test View 123456789">
 	<s:navigationContent>
+		<flexpadmobile:BackButtonGrey label="Back button test" click="{navigator.popView()}" />
 	</s:navigationContent>
 	<s:actionContent>
-		<flexpadmobile:ButtonBlack label="New View" click="{navigator.pushView(TestView);}" />
+		<flexpadmobile:ButtonGrey label="Back button test" click="{navigator.popView()}" />
 	</s:actionContent>
 </s:View>
