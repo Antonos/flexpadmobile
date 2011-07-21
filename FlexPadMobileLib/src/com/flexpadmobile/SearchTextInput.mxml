@@ -3,6 +3,7 @@
     xmlns:s="library://ns.adobe.com/flex/spark"
     xmlns:mx="library://ns.adobe.com/flex/mx"
     xmlns:flexpad="com.flexpadmobile.*"
-    skinClass="com.flexpadmobile.skin.SearchTextInputSkin">
+    skinClass="com.flexpadmobile.skin.SearchTextInputSkin" 
+	needsSoftKeyboard="true">
 
 </flexpad:HintTextInput>
