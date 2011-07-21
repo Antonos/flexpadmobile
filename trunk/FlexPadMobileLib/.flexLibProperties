@@ -2,12 +2,12 @@
 <flexLibProperties includeAllClasses="true" useMultiPlatformConfig="true" version="3">
   <includeClasses/>
   <includeResources>
-    <resourceEntry destPath="Helvetica Bold.ttf" sourcePath="Helvetica Bold.ttf"/>
-    <resourceEntry destPath="HelveticaNeue Bold.ttf" sourcePath="HelveticaNeue Bold.ttf"/>
     <resourceEntry destPath="HelveticaNeue Light.ttf" sourcePath="HelveticaNeue Light.ttf"/>
-    <resourceEntry destPath="defaults.css" sourcePath="defaults.css"/>
     <resourceEntry destPath="manifest.xml" sourcePath="manifest.xml"/>
     <resourceEntry destPath="search.png" sourcePath="search.png"/>
+    <resourceEntry destPath="defaults.css" sourcePath="defaults.css"/>
+    <resourceEntry destPath="HelveticaNeue Bold.ttf" sourcePath="HelveticaNeue Bold.ttf"/>
+    <resourceEntry destPath="Helvetica Bold.ttf" sourcePath="Helvetica Bold.ttf"/>
   </includeResources>
   <namespaceManifests>
     <namespaceManifestEntry manifest="manifest.xml" namespace="http://code.google.com/p/flexpadmobile/"/>
